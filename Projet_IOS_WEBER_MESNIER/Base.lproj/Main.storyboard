@@ -144,8 +144,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Note" id="rPd-i9-Rmd">
-                        <barButtonItem key="leftBarButtonItem" title="cancel" id="Rik-IA-XaZ"/>
-                        <barButtonItem key="rightBarButtonItem" title="save" id="WQx-qd-tg2"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Rik-IA-XaZ">
+                            <connections>
+                                <segue destination="S50-R7-FZK" kind="unwind" identifier="CancelNote" unwindAction="unwindToEmojiTableViewWithSegue:" id="5Mb-hw-AS5"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="WQx-qd-tg2">
+                            <connections>
+                                <segue destination="S50-R7-FZK" kind="unwind" identifier="SaveNote" unwindAction="unwindToEmojiTableViewWithSegue:" id="AaI-r9-2CB"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="contenuTF" destination="4jy-8y-giT" id="EEO-e5-RCJ"/>
