@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A080E2925FA54EC00B88A84 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A080E2825FA54EC00B88A84 /* NoteTableViewController.swift */; };
+		7A080E2C25FA63B600B88A84 /* AddEditNoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A080E2B25FA63B600B88A84 /* AddEditNoteTableViewController.swift */; };
 		CB50A32625F136E1005B15D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50A32525F136E1005B15D1 /* AppDelegate.swift */; };
 		CB50A32825F136E1005B15D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50A32725F136E1005B15D1 /* SceneDelegate.swift */; };
 		CB50A32A25F136E1005B15D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50A32925F136E1005B15D1 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		7A080E2825FA54EC00B88A84 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
+		7A080E2B25FA63B600B88A84 /* AddEditNoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditNoteTableViewController.swift; sourceTree = "<group>"; };
 		CB50A32225F136E1005B15D1 /* Projet_IOS_WEBER_MESNIER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projet_IOS_WEBER_MESNIER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB50A32525F136E1005B15D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB50A32725F136E1005B15D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		CB50A31925F136E1005B15D1 = {
 			isa = PBXGroup;
 			children = (
+				7A080E2B25FA63B600B88A84 /* AddEditNoteTableViewController.swift */,
 				CB50A32425F136E1005B15D1 /* Projet_IOS_WEBER_MESNIER */,
 				CB50A32325F136E1005B15D1 /* Products */,
 			);
@@ -146,6 +149,7 @@
 				7A080E2925FA54EC00B88A84 /* NoteTableViewController.swift in Sources */,
 				CB50A32A25F136E1005B15D1 /* ViewController.swift in Sources */,
 				CB50A32625F136E1005B15D1 /* AppDelegate.swift in Sources */,
+				7A080E2C25FA63B600B88A84 /* AddEditNoteTableViewController.swift in Sources */,
 				CB50A32825F136E1005B15D1 /* SceneDelegate.swift in Sources */,
 				CBAB1C1E25FA4EA600EB7744 /* Note.swift in Sources */,
 			);
