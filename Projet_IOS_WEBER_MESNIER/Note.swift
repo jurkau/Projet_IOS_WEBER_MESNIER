@@ -8,18 +8,18 @@
 import MapKit
 import Foundation
 
-class Note {
+class Note: NSObject {
     
     var titre: String
     var contenu: String
-    var date: DateComponents
-    var localisation: CLLocation
+    var date: DateComponents?
+    var localisation: CLLocation?
     
-    init(titre: String, contenu: String, date: DateComponents, localisation: CLLocation) {
+    init(titre: String, contenu: String) {
         self.titre = titre
         self.contenu = contenu
-        self.date = date
-        self.localisation = localisation
+        //self.date = date
+        //self.localisation = localisation
     }
     
     

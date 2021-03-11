@@ -10,13 +10,13 @@
         <!--Notes-->
         <scene sceneID="e3n-AY-vVB">
             <objects>
-                <tableViewController id="Vjv-gK-UYl" sceneMemberID="viewController">
+                <tableViewController id="Vjv-gK-UYl" customClass="NoteTableViewController" customModule="Projet_IOS_WEBER_MESNIER" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xZG-Ij-N9Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="wMi-bc-ej6" detailTextLabel="SAk-H0-dZH" style="IBUITableViewCellStyleSubtitle" id="4z1-PN-VtG">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="noteCell" textLabel="wMi-bc-ej6" detailTextLabel="SAk-H0-dZH" style="IBUITableViewCellStyleSubtitle" id="4z1-PN-VtG">
                                 <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4z1-PN-VtG" id="SoG-Ho-rmm">
