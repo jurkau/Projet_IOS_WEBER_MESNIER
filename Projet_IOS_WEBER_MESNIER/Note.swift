@@ -15,11 +15,13 @@ class Note: NSObject {
     var date: Date
     var localisation: CLLocation?
     
-    init(titre: String, contenu: String, date: Date) {
+    init(titre: String, contenu: String, date: Date, localisation: CLLocation?) {
         self.titre = titre
         self.contenu = contenu
         self.date = date
-        //self.localisation = localisation
+        if let localisation = localisation {
+            self.localisation = localisation
+        }
     }
     
     

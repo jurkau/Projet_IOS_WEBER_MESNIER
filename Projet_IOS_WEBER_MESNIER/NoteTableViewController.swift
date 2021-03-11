@@ -9,10 +9,10 @@ import UIKit
 
 class NoteTableViewController: UITableViewController {
 
-    var notes: [Note] = [
-        Note(titre: "Test", contenu: "Ceci est une note!", date: Date()),
-        Note(titre: "Test 2", contenu: "Ceci est encore une note!", date: Date())
-    ]
+    var notes: [Note] = []
+    //    Note(titre: "Test", contenu: "Ceci est une note!", date: Date()),
+    //    Note(titre: "Test 2", contenu: "Ceci est encore une note!", date: Date())
+    //]
     
     override func viewDidLoad() {
         super.viewDidLoad()
