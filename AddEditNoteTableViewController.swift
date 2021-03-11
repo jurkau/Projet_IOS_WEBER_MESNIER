@@ -12,7 +12,9 @@ class AddEditNoteTableViewController: UITableViewController {
     var note: Note?
     
     
-
+    @IBOutlet weak var titreTF: UITextField!
+    @IBOutlet weak var contenuTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
