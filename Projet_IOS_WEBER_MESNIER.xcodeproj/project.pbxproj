@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A080E2925FA54EC00B88A84 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A080E2825FA54EC00B88A84 /* NoteTableViewController.swift */; };
 		CB50A32625F136E1005B15D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50A32525F136E1005B15D1 /* AppDelegate.swift */; };
 		CB50A32825F136E1005B15D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50A32725F136E1005B15D1 /* SceneDelegate.swift */; };
 		CB50A32A25F136E1005B15D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50A32925F136E1005B15D1 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A080E2825FA54EC00B88A84 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 		CB50A32225F136E1005B15D1 /* Projet_IOS_WEBER_MESNIER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projet_IOS_WEBER_MESNIER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB50A32525F136E1005B15D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB50A32725F136E1005B15D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				CB50A32725F136E1005B15D1 /* SceneDelegate.swift */,
 				CB50A32925F136E1005B15D1 /* ViewController.swift */,
 				CB50A32B25F136E1005B15D1 /* Main.storyboard */,
+				7A080E2825FA54EC00B88A84 /* NoteTableViewController.swift */,
 				CB50A32E25F136E1005B15D1 /* Assets.xcassets */,
 				CB50A33025F136E1005B15D1 /* LaunchScreen.storyboard */,
 				CB50A33325F136E1005B15D1 /* Info.plist */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A080E2925FA54EC00B88A84 /* NoteTableViewController.swift in Sources */,
 				CB50A32A25F136E1005B15D1 /* ViewController.swift in Sources */,
 				CB50A32625F136E1005B15D1 /* AppDelegate.swift in Sources */,
 				CB50A32825F136E1005B15D1 /* SceneDelegate.swift in Sources */,
