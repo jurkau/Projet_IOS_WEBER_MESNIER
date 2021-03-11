@@ -70,7 +70,14 @@ class NoteTableViewController: UITableViewController {
         }    
     }
     
-
+    
+    // Override to support rearranging the table view.
+    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
+        let movedNote = notes.remove(at: fromIndexPath.row)
+        notes.insert(movedNote, at: to.row)
+    }
+    
+    
     @IBAction func unwindToEmojiTableView(segue: UIStoryboardSegue){
         if segue.identifier == "SaveNote" {
             let sourceVC = segue.source as! AddEditNoteTableViewController
