@@ -10,8 +10,8 @@ import UIKit
 class NoteTableViewController: UITableViewController {
 
     var notes: [Note] = [
-        Note(titre: "Test", contenu: "Ceci est une note!"),
-        Note(titre: "Test 2", contenu: "Ceci est encore une note!")
+        Note(titre: "Test", contenu: "Ceci est une note!", date: Date()),
+        Note(titre: "Test 2", contenu: "Ceci est encore une note!", date: Date())
     ]
     
     override func viewDidLoad() {
@@ -42,7 +42,11 @@ class NoteTableViewController: UITableViewController {
         // Configure the cell...
         let note = notes[indexPath.row]
         cell.textLabel?.text = note.titre
-        cell.detailTextLabel?.text = "date..."
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .medium
+        cell.detailTextLabel?.text = dateFormatter.string(from: note.date)
         return cell
     }
 

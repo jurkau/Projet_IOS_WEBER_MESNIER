@@ -85,9 +85,9 @@ class AddEditNoteTableViewController: UITableViewController {
         if segue.identifier == "SaveNote" {
             let titre = titreTF.text ?? ""
             let contenu = contenuTF.text ?? ""
-            //let date = Date()
+            let date = Date()
             
-            note = Note(titre: titre, contenu: contenu)
+            note = Note(titre: titre, contenu: contenu, date: date)
         }
     }
     

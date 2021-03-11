@@ -12,13 +12,13 @@ class Note: NSObject {
     
     var titre: String
     var contenu: String
-    var date: DateComponents?
+    var date: Date
     var localisation: CLLocation?
     
-    init(titre: String, contenu: String) {
+    init(titre: String, contenu: String, date: Date) {
         self.titre = titre
         self.contenu = contenu
-        //self.date = date
+        self.date = date
         //self.localisation = localisation
     }
     
