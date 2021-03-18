@@ -84,6 +84,10 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                     <connections>
+                                                        <action selector="DisableSaveButton:" destination="gEh-Tk-fzs" eventType="editingDidEnd" id="Gg7-aS-Y2T"/>
+                                                        <action selector="editingChange:" destination="gEh-Tk-fzs" eventType="editingDidEnd" id="OLt-Ob-Uk3"/>
+                                                        <action selector="editingChanged:" destination="gEh-Tk-fzs" eventType="editingDidEnd" id="wyN-wx-cwp"/>
+                                                        <action selector="titreEditing:forEvent:" destination="gEh-Tk-fzs" eventType="editingDidEnd" id="MMR-jN-mUR"/>
                                                         <action selector="titreTF:" destination="S50-R7-FZK" eventType="editingDidEnd" id="6LB-Jy-Sz3"/>
                                                     </connections>
                                                 </textField>
@@ -178,6 +182,7 @@
                     <connections>
                         <outlet property="contenuTF" destination="DK4-LP-z6y" id="2Sy-qR-kBv"/>
                         <outlet property="mapView" destination="H6m-Ok-K49" id="E3K-hA-uR5"/>
+                        <outlet property="saveButton" destination="WQx-qd-tg2" id="a9e-eO-h3s"/>
                         <outlet property="titreTF" destination="4dd-r2-njw" id="qcM-G6-tAz"/>
                     </connections>
                 </tableViewController>

@@ -16,6 +16,7 @@ class AddEditNoteTableViewController: UITableViewController, CLLocationManagerDe
     
     @IBOutlet weak var titreTF: UITextField!
     @IBOutlet weak var contenuTF: UITextView!
+    @IBOutlet weak var saveButton: UIBarButtonItem!
     @IBOutlet var mapView: MKMapView!
     
     let locationManager = CLLocationManager()
@@ -23,6 +24,8 @@ class AddEditNoteTableViewController: UITableViewController, CLLocationManagerDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
+               
+                        
         if let note = note {
             titreTF.text = note.titre
             contenuTF.text = note.contenu
@@ -42,6 +45,8 @@ class AddEditNoteTableViewController: UITableViewController, CLLocationManagerDe
         }
         
     }
+    
+    
     
     // Render the map on the given location with a pin
     func renderMap(location: CLLocation){
@@ -70,6 +75,17 @@ class AddEditNoteTableViewController: UITableViewController, CLLocationManagerDe
         
         locationManager.startUpdatingLocation()
     }
+    
+    
+    // disable the save button until titre and contenu have text
+    @IBAction func editingChanged(_ sender: UITextField) {
+        if (titreTF.text?.isEmpty)! {
+            saveButton.isEnabled = false
+        }
+    }
+    
+   
+    
     
     // Get the current location, update the note and render the map
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
